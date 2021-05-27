@@ -1,0 +1,64 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+   
+  }
+  .donji{
+   display: flex;
+  }
+  .slika{
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+  .lista{
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+  li {
+    float: left;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+  body{
+    background-image: url("prva.jpg");
+    background-size: cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  h1,h3{
+    color: white;
+   margin: 0;
+  
+}
+  h3{
+   
+    margin-left: 450px;
+  }
+  h1{
+  
+    margin-top: 10px;
+    margin-left: 320px;
+  }
+  img{
+ padding-left: 25%;
+  }
+ p{
+     margin-left: 40px;
+ }

@@ -1,0 +1,42 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    width: 100%;
+   
+  }
+  
+  li {
+    float: left;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+  body{
+      background-image: url("prva.jpg");
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      align-content: center;
+      background-size: cover;
+  }
+div{
+    display: flex;
+}
+#thor,#cap,#iron,#bw,#hulk{
+    width:230px;
+    height:230px;
+    margin:10px;
+    margin-top: 150px;
+}

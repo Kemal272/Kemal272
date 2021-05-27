@@ -1,0 +1,52 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+   
+  }
+  
+  li {
+    float: left;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+  body{
+    background-image: url("prva.jpg");
+    background-size: cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .desno{
+     display:flex;
+     margin-right: 0%;
+  }
+  .left{
+ font-size: large;
+margin-top: 50px;
+   color:whitesmoke;
+}
+  img{
+    display: block;
+    margin-top: 10px;
+height: 100%;
+margin-bottom: 10px;
+  }
+  #video
+  {
+      margin-left:50px;
+  }
+ 
